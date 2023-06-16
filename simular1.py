@@ -125,7 +125,7 @@ plt.grid(True)
 plt.plot(Vdaq_ntc)
 plt.plot(Vdaq_par)
 plt.title('Voltajes de Adquisición')
-#plt.show()
+plt.show()
 # guardar en archivo:
 # usualmente, junto con las señales se guarda la frecuencia de muestreo. En este caso 1 segundo.
 fs = 1
