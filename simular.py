@@ -125,5 +125,6 @@ plt.xlabel("Distancia horizontal (m)")
 plt.ylabel("Altura vertical (m)")
 plt.grid(True)
 plt.legend()
+plt.savefig("simulacion.svg")
 plt.show()
 
